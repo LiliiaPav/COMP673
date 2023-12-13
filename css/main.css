@@ -6,12 +6,24 @@
     --accent-color: #ffc107;
     --border-color: #dee2e6;
     --border-radius: 6px;
+    --tertiary-color: #94d2bd;
+
+    --header-bg-color: var(--tertiary-color);
+    --header-text-color: var(--primary-color);
 }
+
+
 
 body{
     background-color: var(--background-color);
     color: var(--secondary-color);
     font-family: var(--primary-font);
+}
+
+header{
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
 h1{
@@ -23,7 +35,6 @@ h1{
 h2{
     color: var(--secondary-color);
     margin: 5px 0;
-    color: var(--secondary-color);
     font-size: 1.2rem;
 }
 
@@ -51,4 +62,10 @@ h2{
 span{
     --color: #069;
     color: var(--color);
+}
+
+article h2{
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    padding: 10px;
 }

@@ -85,3 +85,34 @@ section.cards{
 .cards p{
     padding-top: 1rem;
 }
+
+.cards h2{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--neutral-lt-color);
+    padding: 0.5rem;
+}
+
+.cards figcaption {
+    text-align: center;
+    font-size: .8rem;
+    font-style: italic;
+    padding: .25rem;
+}
+
+.cards .btn{
+    display: inline-block;
+}
+
+.cards img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--secondary-color);
+    color: var(--neutral-lt-color);
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem 0 .25rem;
+    margin-top: auto;
+}

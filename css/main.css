@@ -116,3 +116,7 @@ footer{
     padding: 1rem 0 .25rem;
     margin-top: auto;
 }
+
+.callout{
+    --primary-color: var(--secondary-color);
+}
